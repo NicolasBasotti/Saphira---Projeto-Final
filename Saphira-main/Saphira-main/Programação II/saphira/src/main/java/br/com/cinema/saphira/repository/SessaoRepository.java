@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.cinema.saphira.model.Sessao;
 
-public interface SessaoRepository extends JpaRepository<Sessao,Long> {
+public interface SessaoRepository extends JpaRepository<Sessao,Integer> {
 	
 }

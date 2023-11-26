@@ -7,12 +7,16 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.Data;
 
+
+/**
+ * Representa a entidade Sala no sistema.
+ */
 @Entity
 @Data
 public class Sala {
 	@Id
 	@Column(name = "codsal")
-	private int codigoSala;
+	private Integer codigoSala;
 	
 	@Column(name = "nomsal", length = 2, nullable = false)
 	private String nomeSala;

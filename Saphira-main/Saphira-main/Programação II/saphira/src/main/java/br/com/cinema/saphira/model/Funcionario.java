@@ -9,13 +9,16 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.Data;
 
+/**
+ * Representa a entidade Funcionario no sistema.
+ */
 @Entity
 @Data
 public class Funcionario {
 
 	@Id
 	@Column(name = "codfun")
-	private int codigoFuncionario;
+	private Integer codigoFuncionario;
 
 	@Column(name = "nomfun", length = 40, nullable = false)
 	private String nomeFuncionario;

@@ -5,6 +5,9 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Data;
 
+/**
+ * Representa a entidade ClassificacaoIdade no sistema.
+ */
 @Entity
 @Data
 public class ClassificacaoIdade {

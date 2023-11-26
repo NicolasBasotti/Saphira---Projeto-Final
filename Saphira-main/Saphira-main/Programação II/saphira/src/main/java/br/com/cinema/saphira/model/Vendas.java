@@ -9,12 +9,17 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.Data;
 
+
+/**
+ * Representa a entidade Venda no sistema.
+ */
+
 @Entity
 @Data
 public class Vendas {
 	@Id
 	@Column(name = "codven")
-	private int codigoVenda;
+	private Integer codigoVenda;
 	
 	@Column(name = "datven", nullable = false)
 	private Date dataVenda;

@@ -10,12 +10,16 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToOne;
 import lombok.Data;
 
+
+/**
+ * Representa a entidade Filme no sistema.
+ */
 @Entity
 @Data
 public class Filme {
 	@Id
 	@Column(name = "codfil")
-	private int codigoFilme;
+	private Integer codigoFilme;
 	
 	@Column(name = "nomfil", length = 100, nullable = false)
 	private String nomeFilme;
@@ -27,7 +31,7 @@ public class Filme {
 	private int tempoDuracao;
 	
 	@Column(name = "codavacli")
-	private float codigoAvaliacao;
+	private double codigoAvaliacao;
 	
 	@Column(name = "datlanfil")
 	private Date dataLancamento;

@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.cinema.saphira.model.Companhia;
 
-public interface CompanhiaRepository extends JpaRepository<Companhia,Long> {
+public interface CompanhiaRepository extends JpaRepository<Companhia,Integer> {
 
 }

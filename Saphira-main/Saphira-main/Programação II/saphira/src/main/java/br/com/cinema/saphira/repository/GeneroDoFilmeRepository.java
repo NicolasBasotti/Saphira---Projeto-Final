@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.cinema.saphira.model.GeneroDoFilme;
 
-public interface GeneroDoFilmeRepository extends JpaRepository<GeneroDoFilme,Long> {
+public interface GeneroDoFilmeRepository extends JpaRepository<GeneroDoFilme,Integer> {
 
 }

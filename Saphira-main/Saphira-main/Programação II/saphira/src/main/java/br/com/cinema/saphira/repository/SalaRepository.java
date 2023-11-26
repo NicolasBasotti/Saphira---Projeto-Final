@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.cinema.saphira.model.Sala;
 
-public interface SalaRepository extends JpaRepository<Sala,Long>  {
+public interface SalaRepository extends JpaRepository<Sala,Integer>  {
 
 }

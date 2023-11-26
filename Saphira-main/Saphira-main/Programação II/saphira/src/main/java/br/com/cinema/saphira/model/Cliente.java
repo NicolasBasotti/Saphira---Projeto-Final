@@ -5,12 +5,16 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Data;
 
+
+/**
+ * Representa a entidade Cliente no sistema.
+ */
 @Entity
 @Data
 public class Cliente {
 	@Id
 	@Column(name ="codcli")
-	private int codigoCliente;
+	private Integer codigoCliente;
 	
 	@Column(name = "nomcli", length = 40, nullable = false)
 	private String nomeCliente;

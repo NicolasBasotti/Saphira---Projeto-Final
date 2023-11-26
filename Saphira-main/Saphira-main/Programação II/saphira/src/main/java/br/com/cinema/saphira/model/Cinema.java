@@ -6,9 +6,14 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Data;
 
+/**
+ * Representa a entidade Cinema no sistema.
+ */
+
 @Entity
 @Data
 public class Cinema {
+	
 	@Id
 	@Column(name = "codcin")
 	private int codigoCinema;

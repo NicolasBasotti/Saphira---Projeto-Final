@@ -7,12 +7,16 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
 import lombok.Data;
 
+
+/**
+ * Representa a entidade Ingresso no sistema.
+ */
 @Entity
 @Data
 public class Ingresso {
 	@Id
 	@Column(name = "coding")
-	private int codigoIngresso;
+	private Integer codigoIngresso;
 	
 	@Column(name = "preing", nullable = false)
 	private double precoIngresso;

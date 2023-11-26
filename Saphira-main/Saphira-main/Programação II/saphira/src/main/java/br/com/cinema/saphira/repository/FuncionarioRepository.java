@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.cinema.saphira.model.Funcionario;
 
-public interface FuncionarioRepository extends JpaRepository<Funcionario,Long> {
+public interface FuncionarioRepository extends JpaRepository<Funcionario,Integer> {
 
 }

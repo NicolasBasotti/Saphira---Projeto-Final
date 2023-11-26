@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.cinema.saphira.model.Cinema;
 
-public interface CinemaRepository extends JpaRepository<Cinema,Long> {
+public interface CinemaRepository extends JpaRepository<Cinema,Integer> {
 
 }
